@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>弹性布局上</title>
+</head>
+<style>
+    div {
+        width: 100%;
+        display: -moz-box;
+        /* -moz-box-orient: vertical; */
+        /* -moz-box-orient: inline-axis; */
+        /* -moz-box-direction: reverse; */
+        /* -moz-box-pack: end; */
+        -moz-box-pack: center;
+        /* -moz-box-align: start; */
+        -moz-box-align: stretch;
+        
+    }
+    p {
+        margin: 5px;
+        width: 150px;
+        border: 1px solid gray;
+        background: silver;
+    }
+    p:nth-child(1) {
+        -moz-box-flex: 1
+    }
+    p:nth-child(2) {
+        -moz-box-flex: 2.5
+    }
+    p:nth-child(3) {
+        -moz-box-flex: 1
+    }
+</style>
+<body>
+    <div>
+        <p>据中国之声《新闻纵横》报道，近期总部位于美国的全球知名酒店万豪国际集团在给中国会员发布的活动邮件中，将我国的“港澳台”地区和“西藏”单独列入“国家”一栏，此事引起中国民众的强烈不满。1月11号，上海市网信办责令万豪国际集团从11号18点起对官方中文网站、中文版APP自行关闭一周，开展全面自查整改，彻底清理违法违规信息，同时万豪国际集团方面也公开表示道歉。</p>
+        <p>然而万豪方面在道歉声明中的表述，却再次引起了中国民众质疑。1月12号中国之声记者打开万豪的中文手机APP,立即弹出页面显示目前APP正在更新，同时出现了一段文字声明，其中表示“万豪国际集团尊重中国的主权和领土完整，我们绝不支持任何损害中国主权和领土完整的任何分裂组织。我们对任何可能引起对以上立场误解的行为深刻道歉”。针对万豪方面在这份声明中的表述，南京的张女士认为万豪集团的道歉不真诚，仍在为自己错误的行为辩解。</p>
+        <p>张女士：我对这个万豪的回应非常不满意，因为他的立场是把西藏和港澳台地区作为一个国家来说，那我们对他能有什么误解呢？他确实是做了这个事情，我觉得他这个道歉的真诚程度还不够，他就是应该对他错误的行为而道歉。</p>
+    </div>
+</body>
+</html>

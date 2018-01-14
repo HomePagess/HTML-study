@@ -1,0 +1,100 @@
+body,h1,ul,h2,h3,p,div {
+    margin: 0;
+}
+ul {
+    list-style: outside none none;
+    padding: 0;
+}
+a {
+    text-decoration-line: none;
+}
+#header {
+    width: 100%;
+    min-width: 1263px;
+    height: 70px;
+    background: #333;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 999;
+}
+#header .center {
+    margin: 0 auto;
+    width: 1263px;
+    height: 70px;
+}
+#header .logo {
+    float: left;
+    width: 240px;
+    height: 70px;
+    background-image: url(logo.png);
+    text-indent: -9999px;
+}
+#header .link {
+    float: right;
+    line-height: 70px;
+    height: 70px;
+}
+#header .link li {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+#header .link li>a {
+    display: block;
+    color: #eee;
+}
+#header .link li>a:hover,
+#header .link li.active a {
+    background: #000;
+}
+.none {
+    display: none;
+}
+
+#footer {
+    height: 360px;
+    background: #222;
+    clear: both;
+    position: relative;
+    top: 10px;
+}
+#footer .top {
+    width: 1263px;
+    height: 281px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+#footer .block {
+    /* display: inline-block; */
+    float: left;
+    width: 410px;
+    height: 280px;
+    color: #ccc;
+    /* background: red; */
+    margin: 0 5 px;
+    /* text-align: left; */
+}
+#footer h2 {
+    font-size: 24px;
+    padding: 20px 0 0 20px;
+    font-weight: normal;
+}
+#footer hr {
+    width: 90%;
+    border: 1px dashed #333;
+}
+#footer ul {
+    font-size: 18px;
+    color: #777;
+    /* text-indent: 20px; */
+    line-height: 2;
+    padding-left: 20px;
+}
+#footer .bottom {
+    height: 80px;
+    background: #000;
+    line-height: 80px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #333;
+}

@@ -1,0 +1,129 @@
+
+
+
+
+
+#search {
+    width: 100%;
+    min-width: 1263px;
+    height: 600px;
+    background: url(search.jpg) no-repeat center;
+    position: relative;
+}
+#search .center {
+    width: 600px;
+    height: 60px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -300px;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+#search .search {
+    width: 446px;
+    height: 52px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -27px 0 0 -296px;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 0 10px;
+    outline: none;
+}
+#search .button {
+    width: 120px;
+    height: 52px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    margin: -27px 0 0 175px;
+    color: #666;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+#tour {
+    margin: 30px auto;
+    width: 1263px;
+    height: 1150px;
+    /* background: #ccc; */
+    text-align: center;
+}
+#tour .center {
+    text-align: center;
+}
+#tour .center h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    color: #666;
+}
+#tour .center p {
+    color: #666;
+    margin: 10px 0;
+}
+#tour .figure {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 4px;
+    margin: 15px 12px;
+    width: 380px;
+    text-align: left;
+    border-radius: 4px;
+    position: relative;
+}
+#tour .figure img {
+    vertical-align: middle;
+}
+#tour .figure .content {
+    word-wrap: break-word;
+    word-break: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #777;
+    font-size: 14px;
+    margin: 7px 0 5px 0;
+}
+#tour .figure .content .title {
+    color: #333;
+    font-size: 14px;
+}
+#tour .figure .extra {
+    color: orangered;
+    letter-spacing: 1px;
+}
+#tour .figure .extra .price {
+    font-size: 20px;
+}
+#tour .figure .extra .sat {
+    float: right;
+    font-size: 13px;
+    color: #999;
+    font-style: normal; 
+}
+#tour .type {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background: #59b200;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+
+
