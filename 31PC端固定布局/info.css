@@ -110,14 +110,15 @@
 
 #container .list {
     width: 910px;
-    height: 1200px;
+    /* height: 1200px; */
     float: left;
-    background: #ccc;
+    /* background: #ccc; */
 }
 #container .info {
     background: #eee;
     height: 45px;
     line-height: 45px;
+    margin: 0 0 20px 0;
 }
 #container .left {
     /* display: inline-block; */
@@ -169,4 +170,136 @@
     color: #fff;   
 }
 
+#container .tour {
+    width: 910px;
+    height: 230px;
+    /* background: #ccc; */
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+#container .tour:after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
 
+#container .tour-left {
+    /* display: block; */
+    float: left;
+    /* display: inline-block; */
+}
+#container .tour-right {
+    float: left;
+    /* display: inline-block; */
+    /* margin-left: 25px; */
+    
+}
+#container .tour-right h2,#container .tour-right h3 {
+    width: 300px;
+    font-weight: normal;
+    padding: 10px 0 10px 25px;
+    
+}
+#container .tour-right h2 {
+    font-size: 24px;
+    padding: 10px 0 10px 25px;
+    color: #333;
+}
+#container .tour-right h3 {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#container .tour-right ol {
+    padding-left: 25px;
+    color: #666;
+    line-height: 2;
+    margin: 0;
+}
+#container .tour-right ol li span {
+    padding: 0 5px;
+    border-radius: 4px;
+    color: #458b00;
+    border: 1px solid #458b00;
+    background: #fff;
+}
+#container .tour-right .last {
+    padding-left: 25px;
+    margin-top: 15px;
+    color: #666;
+}
+#container .tour-right .last span {
+    color: #458b00;
+}
+#container .type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    background: #458b00;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#container .disc {
+    width: 52px;
+    height: 52px;
+    background: url(disc.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#container .disc span {
+    display: block;
+    font-size: 14px;
+    color: #ff7a4d;
+    transform: rotate(45deg);
+    padding-left: 5px;
+    text-indent: 14px;
+}
+#container .buy {
+    position: absolute;
+    top: 55px;
+    right: 30px;
+}
+#container .price {
+    font-size: 20px;
+    color: #f60;
+}
+#container .price strong {
+    font-size: 36px;
+}
+#container .price s {
+    color: #999;
+}
+#container .reserve {
+    margin: 10px 0 0 0;
+}
+#container .reserve a {
+    display: inline-block;
+    width: 152px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: #f60;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.more {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
